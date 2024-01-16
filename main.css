@@ -1,0 +1,39 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background-color: #0ebff0;
+}
+
+
+header h1 {
+    margin: 32px;
+    padding: 16px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    padding: 16px;
+}
+
+input,button {
+    width: 100%;
+    margin: 24px;
+    padding: 16px;
+    display: block;
+    border-radius: 6px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #11e55b;
+    width: 100%;
+}
